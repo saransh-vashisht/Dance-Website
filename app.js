@@ -10,7 +10,7 @@ main().catch(err => console.log(err));
 async function main() {
   await mongoose.connect('mongodb://localhost:27017/contactDance');
 }
-const port=8000;
+const port=process.env.PORT  || 8000;
 // Define mongoose schema
 const contactSchema = new mongoose.Schema({
     name: String, 
