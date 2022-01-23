@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  
+}
+#image{
+    background: center/cover no-repeat url("/static/bg3.jpg") ;
+}
+#navbar{
+        /* background-color: #15181b ; */
+        background-color: transparent;
+        padding: 18px 14px;
+        font-family: 'Yeon Sung', cursive;
+        
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    /* color: black; */
+    color: #ffffff;
+    font-size: 2.5rem;
+   
+
+    text-decoration: none;
+    padding: 13px 20px;
+}
+#navbar li a:hover{
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #eb582b, 0 0 20px #eb582b, 0 0 25px #eb582b, 0 0 30px #eb582b, 0 0 35px #eb582b;
+}
+
+#introSection{
+    
+   height: 700px;
+    /* background-color: red; */
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 65px;
+    justify-content: center;
+    align-items: center;
+    /* background: center/cover no-repeat url("/static/bg3.jpg") ; */
+
+    padding-bottom: 40px;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #af2f56, 0 0 20px #af2f56, 0 0 25px #af2f56, 0 0 30px #af2f56, 0 0 35px #af2f56;
+    color: black;
+    
+}
+#introSection div:hover{
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #7900FF, 0 0 20px #7900FF, 0 0 25px #7900FF, 0 0 30px #7900FF, 0 0 35px #7900FF;
+    color: #15181b;
+}
+
+
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+#missionSection{
+    height: 500px;
+    background-color: #A13333;
+    background: center/cover no-repeat  url("/static/bg7.jpg") ;
+    
+  
+    margin: auto;
+    color: rgb(231, 221, 221);
+    opacity: 9.8;
+}
+#missionSection h2{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Yeon Sung', cursive;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #9a63ff, 0 0 20px #9a63ff, 0 0 25px #9a63ff, 0 0 30px #9a63ff, 0 0 35px #9a63ff;
+    color: #15181b;
+}
+
+.card{
+    display: inline-block;
+    /* make them in one line */
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 22px;
+    height: 380px;
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    color: rgb(250, 250, 250);
+    font-size: 2rem;
+}
+#one{
+    background: center/cover no-repeat  url("/static/bg10.jpg") ;
+}
+#two{
+    background: center/cover no-repeat  url("/static/bg8.jpg") ;
+}
+#three{
+    background: center/cover no-repeat  url("/static/bg11.jpg") ;
+}
+#sponserSection{
+    height: 476px;
+    background-color: #A13333;
+    background: center/cover no-repeat url("/static/bg4.jpg") ;
+    color: rgb(231, 221, 221);
+    opacity: 0.95;
+    z-index: -1;
+}
+#sponserSection h2{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Yeon Sung', cursive;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #7900FF, 0 0 20px #7900FF, 0 0 25px #7900FF, 0 0 30px #7900FF, 0 0 35px #7900FF;
+    color: #15181b;
+}
+.card1{
+    display: inline-block;
+    /* make them in one line */
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 22px;
+    height: 365px;
+    position: relative;
+   
+    -webkit-box-shadow:0 0 20px rgb(16, 179, 255); 
+-moz-box-shadow: 0 0 20px rgb(0, 162, 255); 
+box-shadow:0 0 20px rgb(0, 195, 255);
+}
+
+
+.card1 h3{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* text-align: center; */
+    margin: 12px;
+    color: rgb(8, 8, 8);
+    font-size: 2rem;
+    margin-right: 125px;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #f5f3f8, 0 0 20px #efedf1, 0 0 25px #faf7fd, 0 0 30px #f0ecf5, 0 0 35px #eae5f0;
+}
+#one1{
+    background: center/cover no-repeat  url("/static/dance1.jpeg") ;
+}
+#two2{
+    background: center/cover no-repeat  url("/static/dancer3.jpg") ;
+}
+#three3{
+    background: center/cover no-repeat  url("/static/dance2.jpeg") ;
+}
+
+#footer{
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 2rem;
+}

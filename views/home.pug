@@ -1,0 +1,52 @@
+extends base.pug
+
+
+block scripts
+      script(src='/static/index.js')
+
+
+block style 
+    style 
+        include ../static/style.css
+
+
+block content
+  div#image 
+     nav#navbar
+           ul
+               li #[a(href="/") Home]
+               li #[a(href="/") About]
+               li #[a(href="/") Services ]
+               li #[a(href="/") Class info]
+               li #[a(href="/contact") Contact us]
+        
+
+
+
+     section#introSection
+         div Welcome to Natraj Dance Academy  
+         div.small Eat Sleep Dance Repeat
+
+
+  
+  
+  
+  section#missionSection
+      h2 Our mission
+      div.card#one
+         h3 Dance Perfection
+      div.card#two
+            h3 Dance the way you like
+      div.card#three
+            h3 Expert Teaching
+  section#sponserSection
+      h2 Our sponsers
+      div.card1#one1
+         h3 Prabhu Deva
+      div.card1#two2
+            h3 RemiD.Souza
+      div.card1#three3
+            h3 Hrithik Roshan
+  block foot
+      
+            

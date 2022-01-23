@@ -1,0 +1,37 @@
+//- index.pug
+doctype html
+html
+  head
+    title Natraj Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services ]
+            li #[a(href="/") Class info]
+            li #[a(href="/") Contact us]
+        
+
+
+
+    section#introSection
+      div Welcome to Natraj Dance Academy  
+      div.small Eat Sleep Dance Repeat
+    section#missionSection
+      h2 Our mission
+      div.card#one
+        h3 Dance Perfection
+      div.card#two
+        h3 Dance the way you like
+      div.card#three
+        h3 Expert Teaching
+    section#sponserSection 
+      h2 Our sponsers
+    footer#footer
+        | Copyright © 2022 NatrajDanceAcademy.com | All Rights Reserved
+  
+    script
+      include ../static/index.js
