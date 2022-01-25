@@ -2,7 +2,7 @@ const express= require("express");
 const path = require("path");
 
 const app= express();
-const uri = "mongodb+srv://USERNAME:PASSWORD@CLUSTER_NAME.mongodb.net/DATABASE_NAME?retryWrites=true&w=majority""mongodb+srv://saransh:uXbI0M7remnG9FW2@saransh-cluster.gwfsi.mongodb.net/contactDance?retryWrites=true&w=majority"
+
 // getting-started.js
 const mongoose = require('mongoose');
 const bodyparser = require(`body-parser`);
