@@ -201,5 +201,16 @@ box-shadow:0 0 20px rgb(0, 195, 255);
     .card1 h3{
         left: 47px;
     }
+    #introSection{
+        height: 61vh;
+        font-size: 76px;
+    }
+    #introSection div.small{
+        font-size: 82px;
+
+    }
+    #navbar li a {
+        font-size: 2.8rem;
+    }
 
 }

@@ -117,5 +117,26 @@ h1{
     }
   }
 
+  @media only screen and (max-width: 1320px){
+        h1{
+          font-size: 11rem;
+        }
+        .myInput{
+          width: 75%;
+          height: 3%;
+          margin: 47px;
+          padding: 37px;
+        }
+        .myForm{
+          height: 50vh;
+          margin-top: 200px;
 
+        }
+        .btn{
+          height: 95px;
+          margin: 50px;
+          font-size: 35px;
+        }
+  
+  }
   
