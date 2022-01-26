@@ -9,6 +9,7 @@
 
 .background{
     background: center/cover no-repeat url("/static/bg12.jpg") ;
+    height: -webkit-fill-available;
    
 }
 .container{

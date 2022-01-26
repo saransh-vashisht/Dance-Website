@@ -176,3 +176,30 @@ box-shadow:0 0 20px rgb(0, 195, 255);
     font-family: 'Yeon Sung', cursive;
     font-size: 2rem;
 }
+
+
+@media only screen and (max-width: 1320px){
+    #missionSection{
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    #missionSection h2{
+        margin-top: 134px;
+    }
+    
+    #sponserSection{
+        display: flex;
+    
+    }
+    
+    #sponserSection h2{
+        margin-top: 134px;
+    }
+    
+    .card1 h3{
+        left: 47px;
+    }
+
+}
